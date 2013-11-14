@@ -84,7 +84,6 @@ WARNING
         ENV["RAILS_GROUPS"] ||= "assets"
         ENV["RAILS_ENV"]    ||= "production"
 
-        @cache.load public_assets_folder
         @cache.load default_assets_cache
 
         puts "Running: rake assets:precompile"
